@@ -7,6 +7,7 @@ Then Change the Starter code and replace it with the simpler code shown below.
 
 Once your code displays correctly on the screen on the right -
 Download the "Expo Go" App from either the Play Store or App Store to your phone
+
 ![image](https://github.com/user-attachments/assets/9523b122-a27f-4e9d-b77b-9b87b1615dc8)
 
 click the "My Device" button
