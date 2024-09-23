@@ -33,7 +33,7 @@ This creates a variable called styles. On the right side of the equals a StyleSh
 
 In order to add this style to our Text component we must pass it to the component as a prop. Look up how to add a prop to a component on w3schools - react. Bare in mind that the style is a variable so you must refer to it using braces - i.e. {styles.paragraph} when you've managed to change your App so that the text appears differently add this new code to the file you committed in Step 1. Commit and push your new code as Step 2
 
-# Step3
+# Step 3
 Add in the following line at the top with the other import statement
 ```
 import React, {useState} from 'react';
@@ -44,5 +44,9 @@ Set up and array variable in which to store the value for the useState hook by a
 const [fullname, setFullname] = useState("Eoin OKennedy");
 ```
 Add this variable in beside your Hello World inside the text component (hint - you must enclose it in braces for the component to recognise it as a variable)
+When you get your name to display beside the Hello, World add the new code to your repo and then commit and push your code.
+
+# Step 4
+Try and lookup how a TextInput component works. Try and add one to your app. Try to use the onChangeText prop of the TextInput component to call the setFullname() method passing the value of the text entered by the user. This should change the display to read Hello, World, Jimmy (if "Jimmy" was entered by the user.
 
 
