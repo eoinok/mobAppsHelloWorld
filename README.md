@@ -16,3 +16,21 @@ This should open the Expo Go app on your Phone and load the Snack.
 The App will not look good and the some of the Hello World text may be obscured in the top left hand corner of the screen but we can fix these issues as we go forward. You've created your first phone app - kindof.
 
 Export the code to a zip file. Add these files to your repo and commit the code.
+
+# Step 2 - Add a style to the Text
+Add the following code below the import statement
+```
+const styles = StyleSheet.create({
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
+```
+This creates a variable called styles. On the right side of the equals a StyleSheet object is being instantianted. It is being passed a JSON array containing settings as an argument. To use this stylesheet you must add "StyleSheet" to the list of react native components beging imported on the first line.
+
+In order to add this style to our Text component we must pass it to the component as a prop. Look up how to add a prop to a component on w3schools - react. Bare in mind that the style is a variable so you must refer to it using braces - i.e. {styles.paragraph} when you've managed to change your App so that the text appears differently add this new code to the file you committed in Step 1. Commit and push your new code as Step 2
+
+# Steph 
