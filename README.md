@@ -10,6 +10,9 @@ Download the "Expo Go" App from either the Play Store or App Store to your phone
 
 ![image](https://github.com/user-attachments/assets/9523b122-a27f-4e9d-b77b-9b87b1615dc8)
 
+![image](https://github.com/user-attachments/assets/d5d62092-aa16-485a-9fc8-9874be7dd336)
+
+
 click the "My Device" button
 Follow the QR Code
 This should open the Expo Go app on your Phone and load the Snack.
