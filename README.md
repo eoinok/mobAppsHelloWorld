@@ -33,4 +33,16 @@ This creates a variable called styles. On the right side of the equals a StyleSh
 
 In order to add this style to our Text component we must pass it to the component as a prop. Look up how to add a prop to a component on w3schools - react. Bare in mind that the style is a variable so you must refer to it using braces - i.e. {styles.paragraph} when you've managed to change your App so that the text appears differently add this new code to the file you committed in Step 1. Commit and push your new code as Step 2
 
-# Steph 
+# Step3
+Add in the following line at the top with the other import statement
+```
+import React, {useState} from 'react';
+```
+This will allow us to use the useState "hook"
+Set up and array variable in which to store the value for the useState hook by adding the following line - use your own name.
+```
+const [fullname, setFullname] = useState("Eoin OKennedy");
+```
+Add this variable in beside your Hello World inside the text component (hint - you must enclose it in braces for the component to recognise it as a variable)
+
+
